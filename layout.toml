@@ -1,0 +1,69 @@
+[layout]
+name = "Ghbn's Layout"
+description = "English (US) with AltGr+J apostrophe and Slovak letters"
+base = "us"
+
+[[mappings]]
+key = "J"
+modifier = "AltGr"
+produces = "apostrophe"
+
+[[mappings]]
+key = "J"
+modifier = "Shift+AltGr"
+produces = "quotedbl"
+
+[[mappings]]
+key = "G"
+modifier = "AltGr"
+produces = "braceleft"
+
+[[mappings]]
+key = "H"
+modifier = "AltGr"
+produces = "braceright"
+
+[[mappings]]
+key = "A"
+modifier = "AltGr"
+produces = "aacute"
+
+[[mappings]]
+key = "E"
+modifier = "AltGr"
+produces = "eacute"
+
+[[mappings]]
+key = "I"
+modifier = "AltGr"
+produces = "iacute"
+
+[[mappings]]
+key = "O"
+modifier = "AltGr"
+produces = "oacute"
+
+[[mappings]]
+key = "U"
+modifier = "AltGr"
+produces = "uacute"
+
+[[mappings]]
+key = "C"
+modifier = "AltGr"
+produces = "ccaron"
+
+[[mappings]]
+key = "S"
+modifier = "AltGr"
+produces = "scaron"
+
+[[mappings]]
+key = "Z"
+modifier = "AltGr"
+produces = "zcaron"
+
+[[mappings]]
+key = "N"
+modifier = "AltGr"
+produces = "ncaron"

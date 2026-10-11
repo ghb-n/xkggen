@@ -1,0 +1,19 @@
+[package]
+name = "xkbgen"
+version = "0.1.0"
+edition = "2021"
+description="Generate and apply custom XKB keyboard layouts"
+license = "MIT"
+repository = "https://github.com/ghb-n/xkbgen"
+keywords = ["xkb", "keyboard", "layout", "linux"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+anyhow = "1"
+dirs = "5"
+
+[dev-dependencies]
+tempfile = "3"
